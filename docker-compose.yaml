@@ -1,0 +1,5 @@
+services:
+  aws-zone-finder:
+    image: public.ecr.aws/compose-x/aws-zoneid-finder
+    build:
+      context: .
